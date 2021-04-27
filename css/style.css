@@ -269,7 +269,6 @@ ul{
 
 }
 .item{
-    min-height: 524px;
     width: 100%;
     padding: 10px;
 }
@@ -380,19 +379,18 @@ ul{
 
 
 .bottom{
- display: flex;
- justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
 }
 .bottom__cal{
     color: var(--text);
     font-size: 20px;
     line-height: 23px;
     font-family: var(--font_s);
-    padding-top: 45px;
 }
-.bottom__logo{
-    padding-top: 30px;
-}
+
 .bottom_list{
     display: flex;
     justify-content: center;
