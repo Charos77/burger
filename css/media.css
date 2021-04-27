@@ -187,6 +187,9 @@
         height: 100%;
         background: #fff;
     }
+    .header{
+        min-height: 75vh;
+    }
     .logo__img{
         width: 100px;
     }
@@ -255,9 +258,7 @@
     .header__title{
         font-size: 25px;
     }
-    .header{
-        min-height: 80vh;
-    }
+ 
     .bottom__cal{
         font-size: 15px;
     }
